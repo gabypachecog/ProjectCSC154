@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RepWacth Pages</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .header {
+                text-align: center;
+            }
+
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+            }
+
+            img {
+        
+                height: auto;
+                border: 1px solid #ccc;
+                padding: 5px;
+                border-radius: 5px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>High Level Design</h1>
+            <h3>User Interface Wireframes​</h3>
+        </div>
+        <div class="gallery">
+            <img src="1-Homepage.png" alt="Homepage">
+            <img src="2-Login.png" alt="Login">
+            <img src="3-Registration.png" alt="Registration">
+            <img src="4-Dashboard.png" alt="Dashboard">
+            <img src="5-MyReps.png" alt="MyReps">
+            <img src="6-MyBills.png" alt="MyBills">
+            <img src="7-Representatives.png" alt="Representatives">
+            <img src="8-Bills.png" alt="Bills">
+            <img src="9-Settings.png" alt="Settings">
+        </div>
+    </body>
+</html>
